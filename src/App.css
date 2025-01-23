@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    color: #3D00B7;
+    font-size: 27px;
+    font-weight: 900;
+    font-family: "Lexend Giga", serif;
+}
+
+ul {
+    gap: 60px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "DM Sans", serif;
+}
+
+.serching {
+    width: 370px;
+    height: 50px;
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    border-radius: 30px;
+    background: #fff;
+    border: solid 2px #efefef;
+}
+
+.hoot {
+    margin-top: 5px;
+}
+
+#serchings {
+    height: 40px;
+    width: 100%;
+    padding: 0px 20px;
+    border: solid #fff;
+    border-radius: 34px;
+    font-size: 16px;
+    outline: none;
+    font-family: "DM Sans", serif;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search-buttonline {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#btn-upload {
+    width: 132px;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    background: #3D00B7;
+    border-radius: 30px;
+    font-weight: 600;
+    border: solid 1px #3D00B7;
+    font-family: "DM Sans", serif;
+}
+
+#btn-contend {
+    color: #3D00B7;
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 30px;
+    background: #fff;
+    font-weight: 600;
+    border: solid 2px #3D00B7;
+    font-family: "DM Sans", serif;
+}
+
+.hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, #efefef, #e1e1e1);
+    margin: 20px 0;
+}
+
+header{
+    height: 100vh;
+}
+.btn-ls{
+    height: 65px;
+    width: 210px;
+}
+
+.text-ls{
+    width: 600px;
+    color: black;
+    padding: 10px 0px;
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: "Lexend Giga", serif;
+}
+
+.text-sl{
+    width: 474px;
+    font-size: 20px;
+    color: #565656;
+    padding: 10px 0px;
+    line-height: 33px;
+    font-family: "DM Sans", serif;
+}
+.artworking{
+    gap: 40px;
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.text-lg{
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: "Lexend Giga", serif;
+}
+.text-mp{
+    font-size: 18px;
+    font-family: "DM Sans", serif;
+}
+
+.container{
+    position: relative;
+}
+
+
+.imga-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+  }
+  
+  .imga-2 {
+    position: absolute;
+    top: 30px;
+    left: -70px;
+    z-index: 2; 
+  }
+  .imga-3 {
+    position: absolute;
+    top: 60px;
+    left: -140px;
+    z-index: 3; 
+  }
+
+  .Name-date{
+    gap: 15rem;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 12%;
+  }
