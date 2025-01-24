@@ -7,7 +7,11 @@ import img from "/src/assets/search.png";
 import imgs from "/src/assets/img.png";
 import imgsa from "/src/assets/imgsa.png";
 import hart from "/src/assets/hart.png";
-
+import card from "./assets/card.png";
+import cart1 from "./assets/chart1.png";
+import folwers from "./assets/flowers.png";
+import Ellipse from "./assets/Ellipse.png";
+import hars from "./assets/hars.png";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -49,7 +53,11 @@ function App() {
             <div className="explore">
               <Box
                 sx={{
-                  "& button": { marginTop : 4 , borderRadius: 30, background: "#3D00B7" },
+                  "& button": {
+                    marginTop: 4,
+                    borderRadius: 30,
+                    background: "#3D00B7",
+                  },
                 }}
               >
                 <Button className="btn-ls" variant="contained" size="large">
@@ -73,12 +81,69 @@ function App() {
             </div>
           </div>
           <div className="container">
-             <img className="imga-2" src={imgsa} alt="" />
-             <img className="imga-3" src={imgs} alt="" />
-             <img className="imga-1" src={hart} alt="" />
+            <img className="imga-2" src={imgsa} alt="" />
+            <img className="imga-3" src={imgs} alt="" />
+            <img className="imga-1" src={hart} alt="" />
           </div>
         </section>
       </header>
+      <section className="Amazing">
+        <div>
+          <p className="text-ops">The amazing NFT art of the world here</p>
+        </div>
+        <div>
+          <div className="reels">
+            <img src={card} alt="" />
+            <a className="selec" href="#">
+              Fast Transaction
+            </a>
+          </div>
+          <p className="lozem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            etiam viverra tellus imperdiet.
+          </p>
+        </div>
+        <div>
+          <div className="reels">
+            <img src={cart1} alt="" />
+            <a className="selec" href="#">
+              Growth Transaction
+            </a>
+          </div>
+          <p className="lozem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            etiam viverra tellus imperdiet.
+          </p>
+        </div>
+      </section>
+      <section className="map-foot">
+        <div>
+          <div className="roost">
+            <div>
+              <img src={folwers} alt="" />
+            </div>
+          </div>
+          <div className="screns">
+            <div className="flexs">
+              <img src={Ellipse} alt="" />
+              <div>
+                <p className="text-a">The Futr Abstr</p>
+                <p className="text-pe">10 in the stock</p>
+              </div>
+            </div>
+            <div>
+              <p className="text-sam">Highest Bid</p>
+              <p className="like">
+                {" "}
+                <img src={hars} alt="" /> 0.25 ETH
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          
+        </div>
+      </section>
     </>
   );
 }

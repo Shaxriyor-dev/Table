@@ -172,3 +172,101 @@ header{
     margin-top: 50px;
     margin-left: 12%;
   }
+
+  .Amazing{
+    height: 326px;
+    width: 100%;
+    background: #D9E0EC;
+  }
+
+  .text-ops{
+    width: 450px;
+    color: #000;
+     font-size: 30px;
+     font-weight: 1000;
+     font-family: "Lexend Giga", serif;
+  }
+  .selec{
+     font-family: 25px;
+     color: #000;
+     font-weight: 800;
+     font-family: "DM Sans", serif;
+  }
+  .reels{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .lozem{
+    width: 350px;
+    color: #565656;
+    font-size: 18px;
+    margin: 20px;
+    font-family: "DM Sans", serif;
+  }
+
+  .Amazing{
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .map-foot{
+    height: 100vh;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 11px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #6a6a6a;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background:#D9E0EC;
+  }
+  
+  .text-a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "DM Sans", serif;
+  }
+  .text-pe{
+    font-size: 18px;
+    color: #565656;
+    font-family: "DM Sans", serif;
+  }
+  .flexs{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .text-sam{
+     font-size: 16px;
+     color: #565656;
+     font-family: "DM Sans", serif;
+  }
+
+  .like{
+    gap: 10px;
+    display:flex ;
+    font-weight: 900;
+    font-size: 20px;
+    color: #3b3b3b;
+    align-items: center;
+    margin: 5px;
+    font-family: "DM Sans", serif;
+  }
+
+  .screns{
+    display: flex;
+    width: 400px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
